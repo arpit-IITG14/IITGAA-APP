@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="25dp"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="5dp"
+    android:paddingTop="60dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <view
+        android:id="@+id/nav_icon"
+        style="@style/TextView.CircleIcon_header"
+        class="com.example.alumniapp.TextViewPlus"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/nav_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:text="Name"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+</LinearLayout>

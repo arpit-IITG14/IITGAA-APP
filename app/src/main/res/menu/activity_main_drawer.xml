@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_chapters"
+            android:title="Chapters" />
+        <item
+            android:id="@+id/nav_give_back"
+            android:title="Give Back to IITG" />
+        <item
+            android:id="@+id/nav_blog"
+            android:title="Blog" />
+        <item
+            android:id="@+id/nav_follow"
+            android:title="Follow Us" />
+    </group>
+
+
+</menu>
